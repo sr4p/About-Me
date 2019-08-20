@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         val doneBotton = findViewById<Button>(R.id.done_button)
         doneBotton.visibility = View.GONE
 
-        //hide keyboard
+        //hide keyboardddd
         val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
 
